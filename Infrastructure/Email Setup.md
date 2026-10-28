@@ -132,6 +132,19 @@ Keep these email basics in mind:
 - Add DMARC for spoofing protection
 - Remove old MX records from providers that are no longer used
 
+## DMARC Record
+
+Added for the November 2026 site relaunch so infrazz.com passes its own Email Health Check.
+
+```txt
+Type   Name     Value
+TXT    _dmarc   v=DMARC1; p=none; rua=mailto:hello@infrazz.com
+```
+
+- Start with `p=none` (monitoring only); reports arrive at hello@infrazz.com through Email Routing
+- After two weeks of reports showing no legitimate senders failing, change to `p=quarantine`
+- Nothing sends as @infrazz.com today, so DKIM is not needed until a sending service is added
+
 ## Operational Notes
 
 - Cloudflare Email Routing is the current inbound email solution for Infrazz

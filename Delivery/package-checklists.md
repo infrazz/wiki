@@ -88,5 +88,5 @@ Estimate: 8 to 12 hours.
 - [ ] Gap check against CSA's Cyber Essentials requirements
 - [ ] Fix list agreed; fixes done (or quoted separately if outside a package)
 - [ ] Self-assessment evidence pack prepared
-- [ ] Client chooses a CSA-appointed certification body and books the assessment; remind them of CSA's fee funding (up to S$250 for 1 to 10 devices, S$350 for 11 to 20)
+- [ ] Client chooses a CSA-appointed certification body and books the assessment; remind them that CSA funds part of the fee for a first certification of a Singapore SME until 6 Feb 2028 (amounts by number of endpoints on CSA's certification page)
 - [ ] Certification valid 2 years: reminder set for renewal
